@@ -35,7 +35,7 @@ CalicoST is a probabilistic model that infers allele-specific copy number aberra
 Tangram: https://github.com/broadinstitute/Tangram
 Tangram is a Python package, written in PyTorch and based on scanpy, for mapping single-cell (or single-nucleus) gene expression data onto spatial gene expression data. The single-cell dataset and the spatial dataset should be collected from the same anatomical region/tissue type, ideally from a biological replicate, and need to share a set of genes. 
 
-SPOTlight: https://github.com/MarcElosua/SPOTlight(old or new is different)
+SPOTlight: https://github.com/MarcElosua/SPOTlight (old or new is different)
 SPOTlight provides a tool that enables the deconvolution of mixtures of cells from a single-cell reference. Originally developed for 10X's Visium - spatial transcriptomics- technology, it can be used for all technologies that output mixtures of cells. 
 
 Cell2location: https://github.com/BayraktarLab/cell2location
