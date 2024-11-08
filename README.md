@@ -4,19 +4,19 @@ Awesome list of tools and methods to perform spatial transcriptomic data analysi
 old copy braches.
 View all the methods <a href="https://htmlpreview.github.io/?https://github.com/drieslab/awesome-spatial-data-analysis/blob/main/review_spat_trns_methods.html">here</a>
 
-## Stereo-seq in MGI
+# Stereo-seq in MGI
 
-# The basic analysis workflow
+## The basic analysis workflow
 
 Stereopy: https://stereopy.readthedocs.io/en/latest/index.html
 Stereopy is a fundamental and comprehensive tool for mining and visualization based on spatial transcriptomics data, such as Stereo-seq (spatial enhanced resolution omics sequencing) data. More analysis will be added here, either from other popular tools or developed by ourselves, to meet diverse requirements. Meanwhile, we are still working on the improvement of performance and calculation efficiency.
 
-# Cell segmentation
+## Cell segmentation
 
 Spateo: https://spateo-release.readthedocs.io/en/latest/index.html
 Leveraging the ultra-high spatial-resolution, large field of view and high RNA capture sensitivity of Stereo-seq, spateo enables single cell resolution spatial transcriptomics via nuclei-staining and RNA signal based cell segmentation.
 
-# Spatial transcriptome CNV
+## Spatial transcriptome CNV
 
 SpatialInferCNV: https://github.com/aerickso/SpatialInferCNV
 Spatially resolved transcriptomics has emerged as a genome-wide analysis of gene expression to explore tissues in an unsupervised manner. In this study we infer genome-wide copy-number variations (CNV) from spatially resolved mRNA profiles in situ. Gene expression has previously been used to infer CNVs in single cells, successfully identifying regions of chromosomal gain and loss. Here we expand into a spatial modality, generating CNV calls in each spatial region represented by barcoded spots.
@@ -30,7 +30,7 @@ CalicoST is a probabilistic model that infers allele-specific copy number aberra
     Handles normal cell admixture in SRT technologies hat are not single-cell resolution (e.g. 10x Genomics Visium) to infer more accurate allele-specific copy numbers and cancer clones.
     Simultaneously analyzes multiple regions or aligned SRT slices from the same tumor.
 
-# Spatial transcriptome deconvolution
+## Spatial transcriptome deconvolution
 
 Tangram: https://github.com/broadinstitute/Tangram
 Tangram is a Python package, written in PyTorch and based on scanpy, for mapping single-cell (or single-nucleus) gene expression data onto spatial gene expression data. The single-cell dataset and the spatial dataset should be collected from the same anatomical region/tissue type, ideally from a biological replicate, and need to share a set of genes. 
@@ -44,20 +44,20 @@ Cell2location is a principled Bayesian model that can resolve fine-grained cell 
 RCTD(spacexr): https://github.com/dmcable/spacexr
 RCTD can assign single cell types or cell type mixtures to spatial transcriptomics spots. RCTD has three modes: doublet mode, which assigns 1-2 cell types per spot and is recommended for technologies with high spatial resolution such as Slide-seq and MERFISH; full mode, which assigns any number of cell types per spot and is recommended for technologies with poor spatial resolution such as 100-micron resolution Visium; multi mode, an extension of doublet mode that can discover more than two cell types per spot as an alternative option to full mode.
 
-# Spatial transcriptome communication
+## Spatial transcriptome communication
 
 Spateo
 
-## From single-cell
-# NMF
+# From single-cell
+## NMF
 CoGAPS: https://fertiglab.github.io/CoGAPSGuide/
 Here, we aim to introduce a suite of computational tools that implement NMF and provide methods for accurate, clear biological interpretation and analysis. A generalized discussion of NMF covering its benefits, limitations, and open questions in the field is followed by three procedures for the Bayesian NMF algorithm CoGAPS (Coordinated Gene Activity across Pattern Subsets). Each procedure will demonstrate NMF analysis to quantify cell state transitions in public domain single-cell RNA-sequencing (scRNA-seq) data of 25,422 epithelial cells from pancreatic ductal adenocarcinoma (PDAC) tumors and control samples. The first demonstrates PyCoGAPS, our new Python implementation of CoGAPS that enhances runtime of Bayesian NMF for large datasets.(include R packages CoGAPS)
 
-# cell-cell communication
+## cell-cell communication
 CellphoneDB: https://cellphonedb.readthedocs.io/en/latest/RESULTS-DOCUMENTATION.html#
 CellphoneDB tool provides different methods to assess cellular crosstalk between different cell types by leveraging our CellphoneDB database of interacting molecules with single-cell transcriptome data.
 
-# RNA velocity
+## RNA velocity
 Velocyte: http://velocyto.org/velocyto.py/tutorial/index.html#running-the-cli
 
 scVelo: https://scvelo.readthedocs.io/en/stable/
