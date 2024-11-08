@@ -48,9 +48,21 @@ RCTD can assign single cell types or cell type mixtures to spatial transcriptomi
 
 Spateo
 
+## From single-cell
+# NMF
+CoGAPS: https://fertiglab.github.io/CoGAPSGuide/
+Here, we aim to introduce a suite of computational tools that implement NMF and provide methods for accurate, clear biological interpretation and analysis. A generalized discussion of NMF covering its benefits, limitations, and open questions in the field is followed by three procedures for the Bayesian NMF algorithm CoGAPS (Coordinated Gene Activity across Pattern Subsets). Each procedure will demonstrate NMF analysis to quantify cell state transitions in public domain single-cell RNA-sequencing (scRNA-seq) data of 25,422 epithelial cells from pancreatic ductal adenocarcinoma (PDAC) tumors and control samples. The first demonstrates PyCoGAPS, our new Python implementation of CoGAPS that enhances runtime of Bayesian NMF for large datasets.(include R packages CoGAPS)
 
+# cell-cell communication
+CellphoneDB: https://cellphonedb.readthedocs.io/en/latest/RESULTS-DOCUMENTATION.html#
+CellphoneDB tool provides different methods to assess cellular crosstalk between different cell types by leveraging our CellphoneDB database of interacting molecules with single-cell transcriptome data.
 
+# RNA velocity
+Velocyte: http://velocyto.org/velocyto.py/tutorial/index.html#running-the-cli
 
+scVelo: https://scvelo.readthedocs.io/en/stable/
+scVelo is a scalable toolkit for RNA velocity analysis in single cells; RNA velocity enables the recovery of directed dynamic information by leveraging splicing kinetics [Manno et al., 2018]. scVelo collects different methods for inferring RNA velocity using an expectation-maximization framework [Bergen et al., 2020], deep generative modeling [Gayoso et al., 2023], or metabolically labeled transcripts [Weiler et al., 2023].
+(reference tutorial https://smorabit.github.io/blog/2021/velocyto/)
 
 
 
